@@ -4,19 +4,17 @@ import time
 
 cache = {}
 
-def load_data():
+def load_data(mirNamePath):
     stime = time.time()
     print("from database HumanNet-XN load gene-gene interaction ... ", end='', flush=True)
     GGI = pd.read_csv("./miRSIm/HumanNet-XN.tsv", delimiter='\t')
     lls = GGI[['LLS']].values.T[0]
     LLSN = (lls-lls.min()) / (lls.max()-lls.min())
-    GGI_dict = dict(
-        zip(zip(GGI[['#EntrezGeneID1']].values.T[0], GGI[['EntrezGeneID2']].values.T[0]), LLSN)
-    )
+    GGI_dict = dict(zip(zip(GGI[['#EntrezGeneID1']].values.T[0], GGI[['EntrezGeneID2']].values.T[0]), LLSN))
     del lls
     del LLSN
     del GGI
-    print('Time {:.2f}s'.format(time.time()-stime))
+    print('用时{:.2f}s'.format(time.time()-stime))
 
     stime = time.time()
     print("from database miRTarBase_MTI load miR target ... ", end='', flush=True)
@@ -30,12 +28,12 @@ def load_data():
     for mname, gid in mirTar.values:
         mirTar_dict[mname].add(gid)
     del mirTar
-    print('Time {:.2f}min'.format((time.time()-stime)/60))
+    print('用时{:.2f}min'.format((time.time()-stime)/60))
 
     stime = time.time()
-    print("reading miRNA name seq ... ", end='', flush=True)
-    m_name = np.loadtxt("./data/m_name.txt", delimiter='\n', dtype=object)
-    print('Time {:.2f}s'.format(time.time()-stime))
+    print("reading miRNA name seq {} ... ".format(mirNamePath), end='', flush=True)
+    m_name = np.loadtxt(mirNamePath, delimiter='\n', dtype=object)
+    print('用时{:.2f}s'.format(time.time()-stime))
 
     return GGI_dict, mirTar_dict, m_name
 
@@ -58,6 +56,7 @@ def formula5(g, G, _HumanNet):
     return max_sim
 
 def formula6(mi:str, mj:str, mirTar_dict, _HumanNet):
+    '''two node's of similarity'''    # hsa-let-7
     mi = mi.upper()
     mj = mj.upper()
     G_mi = mirTar_dict.get(mi)

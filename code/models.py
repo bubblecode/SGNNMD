@@ -233,13 +233,13 @@ def links2subgraphs(Mtx, Mtxori, train_pos,train_neg, test_pos,test_neg, h=1, ma
     train_max_shape = (0,0)
     val_max_shape = (0,0)
     return train_graphs, test_graphs, max_n
-def constructSubgraph4pred(Mtx, edge_pos, edge_neg, h=1, featM=None,featD=None):
+def constructSubgraph4pred(Mtx, edge_pos, edge_neg, edge_zero, h=1, featM=None,featD=None):
     global max_n
     def helper(M, links, g_label):
         global max_n
         g_list = []
         start = time.time()
-        results = [subgraph_extraction_labeling(*((i, j), M, h, None, featM, featD)) for i, j in zip(links[0], links[1])]
+        results = [subgraph_extraction_labeling(*((i, j), M, h, None, featM, featD)) for i, j in links]
         g_list = [GNNGraph(g, g_label, n_label, n_feat, pos_edge, neg_edge,ind[0],ind[1]) for g,n_label,n_feat,pos_edge,neg_edge,_,ind in results]
         if len(results) != 0:
             max_n = max([i[5] for i in results])
@@ -247,7 +247,7 @@ def constructSubgraph4pred(Mtx, edge_pos, edge_neg, h=1, featM=None,featD=None):
         print(" \rSubgraph extracting ... ok (Time: {:.2f}s)".format(end-start), flush=True)
         return g_list
     ###########################################################
-    test_graphs = helper(Mtx, edge_pos, 1) + helper(Mtx, edge_neg, -1)
+    test_graphs = helper(Mtx, edge_pos, 1) + helper(Mtx, edge_neg, -1) + helper(Mtx, edge_zero, 0)
     max_n = 5 if max_n < 5 else max_n
     print('pred_max_n:{}'.format(max_n))
     return test_graphs, max_n
@@ -383,6 +383,7 @@ class GCN(nn.Module):
         hid_topo = self.gcn_topo2(hid_topo, n2n_sp)[0]
         #############################
         # cur_message_layer = hid_topo
+        # cur_message_layer = concat_feat
         cur_message_layer = torch.cat((hid_topo, concat_feat), 1)
         self.total_hidden_dim = cur_message_layer.shape[1]
         ''' pooling layer ''' #! DGCNN核心部分
@@ -455,8 +456,9 @@ class Classifier(nn.Module):
 class Mymodel(nn.Module):
     def __init__(self, topo_feat=5, bio_feat=128):
         super(Mymodel, self).__init__()
-        k = 32    # [EXP]
+        k = 25    # [EXP] [16, 32, 64, 128, 256, 512, 1024]
         self.gcn = GCN(num_node_feats=max_n+1, k=k,bio_feat=bio_feat, conv1d_activation='ReLU')
+        # self.clsf   = Classifier(input_dim=1792, hidden_dim=32, output_dim=2)
         self.clsf   = Classifier(input_dim=k*32*5, hidden_dim=32, output_dim=2)
         self.feat_dim = topo_feat ## 结点最大标签+1
         self.predict = False
