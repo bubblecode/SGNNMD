@@ -1,0 +1,897 @@
+Acquired Immunodeficiency Syndrome	D000163
+ACTH-Secreting Pituitary Adenoma	D049913
+Acute Brucellosis	D002006
+Acute Cerebral Infarction	D002544
+Acute Cerebral Ischemia	N/A
+Acute Coronary Syndrome	D054058
+Acute Erythroid Leukemia	D004915
+Acute Heart Failure	N/A
+Acute Ischemic Stroke	D002546
+Acute Kidney Failure	D058186
+Acute Liver Failure	D017114
+Acute Lung Injury	D055371
+Acute Megakaryoblastic Leukemia	D007947
+Acute Myocardial Infarction	D056989
+Acute Pancreatitis	D019283
+Acute Peritonitis	D010538
+Acute Respiratory Distress Syndrome	D012128
+Adenocarcinoma,Ampullary	N/A
+Adenocarcinoma,Cervical	N/A
+Adenocarcinoma,Colon	N/A
+Adenocarcinoma,Endometrial	D018269
+Adenocarcinoma,Esophageal	C562730
+Adenocarcinoma,Gastric	D013274
+Adenocarcinoma,Gastric-Esophageal Junction	N/A
+Adenocarcinoma,Lung	C538231
+Adenocarcinoma,Pancreatic Ductal	D021441
+Adenocarcinoma,Prostate	D011471
+Adenocarcinoma,Sebaceous	D018266
+Adenosquamous Pancreas Carcinoma	N/A
+Adenovirus Infection	D000257
+Adrenal Cortex Neoplasms	D000306
+African Swine Fever	D000357
+Age-Related Macular Degeneration	D008268
+AIDS Dementia Complex	D015526
+Alcohol Use Disorder	D000437
+Alcoholic Cardiomyopathy	D002310
+Alcoholic Hepatitis	D006519
+Allergic Asthma	C564133
+Allergic Contact Dermatitis	D017449
+Allergic Rhinitis	D065631
+Allergic Rhinitis,Perennial	D012221
+Allergy	D006967
+Alopecia	D000505
+Alveolar Rhabdomyosarcoma	D018232
+Alzheimer Disease	D000544
+Amyloidosis	D000686
+Amyotrophic Lateral Sclerosis	D000690
+Anaplastic Astrocytoma	D001254
+Androgenetic Alopecia	D000505
+Anemia	D000740
+Aneurysm	D000783
+Aneurysmal Subarachnoid Hemorrhage	D013345
+Angiosarcoma	D006394
+Ankylosing Spondylitis	D013167
+Antiphospholipid Syndrome	D016736
+Anus Neoplasm	D001005
+Anxiety	D001007
+Anxiety Disorders	D001008
+Aortic Aneurysm	D001014
+Aortic Aneurysm,Abdominal	D017544
+Aortic Aneurysm,Thoracic	D017545
+Aortic Insufficiency	D001022
+Aortic Stenosis	D001024
+Aortic Valve Disease	N/A
+Aplastic Anemia	D000741
+Arrhythmia	D001145
+Arteriosclerosis Obliterans	D001162
+Arteriovenous Malformation	D001165
+Arthritis	D001168
+Asthenozoospermia	D053627
+Asthma	D001249
+Astrocytoma	D001254
+Atherosclerosis	D050197
+Atopic Dermatitis	D003876
+Atrial Fibrillation	D001281
+Atrioventricular Septal Defect	D004694
+Atrophic Gastritis	D005757
+Atypical Teratoid Tumor	N/A
+Autism Spectrum Disorder	D000067877
+Autistic Disorder	D001321
+Autoimmune Diseases [unspecific]	D001327
+Autoimmune Hepatitis	D019693
+Autoimmune Lymphoproliferative Syndrome	D056735
+Autoimmune Thyroiditis	D013967
+Azoospermia	D053713
+Balkan Nephropathy	D001449
+Barrett Esophagus	D001471
+B-cell Childhood Acute Lymphoblastic Leukemia	N/A
+Becker Muscular Dystrophy	N/A
+Behcet Disease	D001528
+Biliary Atresia	D001656
+Biliary Tract Neoplasms	D001661
+Bipolar Disorder	D001714
+Bladder Fibrosis	N/A
+Bladder Neoplasms	D001749
+Bladder Outlet Obstruction	D001748
+Blindness	N/A
+Blood Coagulation Disorders	D001778
+Bone Cancer	D001859
+Bone Disease [unspecific]	D001847
+Borjeson-Forssman-Lehmann Syndrome	C536575
+Borna Disease	D001890
+Brain Disease [unspecific]	D001927
+Brain Neoplasms	D001932
+Breast Adenocarcinoma	N/A
+Breast Ductal Carcinoma	D044584
+Breast Malignant Phyllodes Tumor	D003557
+Breast Neoplasms	D001943
+Bronchiolitis Obliterans Syndrome	D001989
+Bronchopulmonary Dysplasia	D001997
+Burns	D002056
+Carcinoma,Adenoid Cystic	D003528
+Carcinoma,Adrenocortical	D018268
+Carcinoma,Basal Cell	D002280
+Carcinoma,Biliary Tract	D001650
+Carcinoma,Bladder	D001749
+Carcinoma,Breast	D001943
+Carcinoma,Breast,Triple Negative	D064726
+Carcinoma,Cervical	D002583
+Carcinoma,Colon	C028885
+Carcinoma,Ehrlich Tumor	D002286
+Carcinoma,Embryonal	D018236
+Carcinoma,Endometrial	D016889
+Carcinoma,Endometrioid Endometrial	D018269
+Carcinoma,Esophageal	D004938
+Carcinoma,Gallbladder	D005706
+Carcinoma,Gastric	D013274
+Carcinoma,Gastric,Signet Ring Cell	D018279
+Carcinoma,Gastrointestinal	D005770
+Carcinoma,Gastrooesophageal	N/A
+Carcinoma,Gingival	N/A
+Carcinoma,Head And Neck	D006258
+Carcinoma,Head And Neck,Adenoid Cystic	D003528
+Carcinoma,Hepatocellular	D006528
+Carcinoma,Hepatocellular,HBV-Related	N/A
+Carcinoma,Hepatocellular,HCV-Related	N/A
+Carcinoma,Laryngeal	D007822
+Carcinoma,Lung	D008175
+Carcinoma,Lung,Non-Small-Cell	D002289
+Carcinoma,Lung,Small-Cell	D055752
+Carcinoma,Merkel Cell	D015266
+Carcinoma,Mucoepidermoid	D018277
+Carcinoma,Nasopharyngeal	C538339
+Carcinoma,Neuroendocrine	D018278
+Carcinoma,Non-Functioning Pituitary	N/A
+Carcinoma,Oral	N/A
+Carcinoma,Oropharyngeal	D009959
+Carcinoma,Ovarian	C538090
+Carcinoma,Ovarian,Clear Cell	N/A
+Carcinoma,Ovarian,Serous	N/A
+Carcinoma,Pancreatic	C562463
+Carcinoma,Pancreatic Ductal	D021441
+Carcinoma,Pancreato-Biliary	D001661
+Carcinoma,Periampullary	N/A
+Carcinoma,Prostate	D011471
+Carcinoma,Rectal	D012004
+Carcinoma,Renal Cell	D002292
+Carcinoma,Renal Cell,Chromophobe	N/A
+Carcinoma,Renal Cell,Clear-Cell	N/A
+Carcinoma,Salivary Adenoid Cystic	D003528
+Carcinoma,Skin	D018280
+Carcinoma,Spindle Cell	N/A
+Carcinoma,Supraglottic	D059525
+Carcinoma,Thyroid	D013964
+Carcinoma,Thyroid,Anaplastic	D065646
+Carcinoma,Thyroid,Follicular	C572845
+Carcinoma,Thyroid,Medullary	C536914
+Carcinoma,Thyroid,Papillary	C536915
+Carcinoma,Tounge	N/A
+Carcinoma,Urothelial	N/A
+Carcinoma,Urothelial,Upper Tract	N/A
+Carcinoma,Vulvar	D014846
+Cardiac Allograft Vasculopathy	D014652
+Cardiac Fibrosis	N/A
+Cardiac Myocyte Injury	N/A
+Cardiac Myxoma	D009232
+Cardiomegaly	D006332
+Cardiometabolic Disorders	N/A
+Cardiomyopathy	D009202
+Cardiomyopathy,Dilated	D002311
+Cardiomyopathy,Hypertrophic	D002312
+Cardiomyopathy,Ischemic	N/A
+Cardio-Renal Syndrome	D059347
+Cardiotoxicity	D066126
+Cardiovascular Diseases [unspecific]	D002318
+Carotid Artery Diseases	D002340
+Carotid Atherosclerosis	D002340
+Cartilage Disease [unspecific]	D002357
+Cataract	D002386
+Celiac Disease	D002446
+Central Nervous System Embryonal Tumor	D009373
+Cerebellum Cancer	D002528
+Cerebral Aneurysm	D002532
+Cerebral Cavernous Malformations	C566394
+Cerebral Ischemia	D002545
+Cerebral Malaria	D016779
+Cerebrovascular Disease	D002561
+Cervical Dysplasia	D002578
+Cervical Neoplasms	D002583
+Cervicitis	D002575
+Cervix Endometrial Stromal Tumor	N/A
+Chagas Disease	D014355
+Charcot-Marie-Tooth Disease Type 1A	D002607
+Chikungunya Virus Infection	D065632
+Child Development Disorders,Pervasive	D002659
+Childhood Leukemia	N/A
+Childhood Obesity	D063766
+Childhood Solid Tumor [unspecific]	N/A
+Chlamydial Infection 	D002690
+Cholangiocarcinoma	D018281
+Cholestasis	D002779
+Cholestatic Liver Injury	N/A
+Cholesteatoma	D002781
+Chondrosarcoma	D002813
+Chordoma	D002817
+Chorioamnionitis	D002821
+Choriocarcinoma	D002822
+Choroidal Neovascularization	D020256
+Chromosome 15q13.3 Microdeletion Syndrome	C567439
+Chromosome 22Q11.2 Deletion Syndrome,Distal	N/A
+Chromosome 5q Deletion Syndrome	N/A
+Chronic Alcohol-Induced Alveolar Macrophage Dysfunction	N/A
+Chronic Atrial Fibrillation	D001281
+Chronic Brucellosis	D002006
+Chronic Fatigue Syndrome	D015673
+Chronic Heart Failure	D006333
+Chronic Hepatitis	D006521
+Chronic Hepatitis B	D019694
+Chronic Hepatitis C	D019698
+Chronic Inflammation	N/A
+Chronic Inflammatory Pain	N/A
+Chronic Kidney Disease	D007676
+Chronic Obstructive Pulmonary Disease	D029424
+Chronic Pain	D059350
+Chronic Pancreatitis	D050500
+Chronic Post-Traumatic Headache	D051298
+Cleidocranial Dysplasia	D002973
+Cocaine Abuse	D019970
+Colitis	D003092
+Colitis,Ulcerative	D003093
+Coloboma	D003103
+Colon Adenoma	N/A
+Colon Neoplasms	D003110
+Colorectal Adenocarcinoma	C000599423
+Colorectal Adenoma	N/A
+Colorectal Carcinoma	D015179
+Combined Pituitary Hormone Deficiency	C580003
+Complex Regional Pain Syndrome	D020918
+Cone Dystrophy	N/A
+Congenital Deafness	C565195
+Congenital Diaphragmatic Hernia	D006548
+Congenital Heart Diseases	D006330
+Congenital Hypothyroidism	D003409
+Congenital Microtia	D065817
+Congenital Myasthenic Syndrome	D020294
+Constriction,Pathologic	D003251
+Cor Pulmonale	D011660
+Cornea Squamous Cell Carcinoma	N/A
+Corneal Neovascularization	D016510
+Coronary Artery Disease	D003324
+Coronary Atherosclerosis	D003324
+Coronary Restenosis	D023903
+Coronavirus Infections	D018352
+Costello Syndrome	D056685
+Cowden Syndrome	D006223
+Coxsackievirus Infection	D006223
+Craniofacial Abnormalities	D019465
+Creutzfeldt-Jakob Disease	D007562
+Crohn Colitis	D003424
+Crohn Disease	D003424
+Cryptosporidium infection	D003457
+Cutaneous Melanoma	C562393
+Cystic Fibrosis	D003550
+Cytomegalovirus Retinitis	D017726
+Cytotoxicity Tests,Immunologic	D003601
+Dementia	D003704
+Demyelinating Diseases	D003711
+Dengue Shock Syndrome	N/A
+Dengue Virus Infection	D003715
+Dental Anomalies	N/A
+Dental Enamel Hypoplasia	D003744
+Depression Disorder	D003866
+Dermatomyositis	D003882
+Diabetes Mellitus	D003920
+Diabetes Mellitus,Gestational	D016640
+Diabetes Mellitus,Type 1	D003922
+Diabetes Mellitus,Type 2	D003924
+Diabetic Cardiomyopathies	D058065
+Diabetic Cataract	N/A
+Diabetic Encephalopathy	N/A
+Diabetic Foot	D017719
+Diabetic Nephropathy	D003928
+Diabetic Peripheral Neuropathy	N/A
+Diabetic Polyneuropathy	D003929
+Diabetic Retinopathy	D003930
+Diabetic Vasculopathy	D003925
+Diarrhea	D003967
+Diffuse Lipomatosis	N/A
+Digeorge Syndrome	D004062
+Digestive System Neoplasms	D004067
+Disease of Metabolism	D008659
+Distal Myopathy	D049310
+Down Syndrome	D004314
+Dyspepsia	D004415
+Early-Stage Breast Carcinoma	D001943
+Early-Stage Cervical Squamous Cell Carcinoma	N/A
+Early-Stage Colon Adenocarcinoma	N/A
+Early-Stage Colon Carcinoma	N/A
+Early-Stage Gastric Carcinoma	N/A
+Early-Stage Lung Adenocarcinoma	C538231
+Early-Stage Lung Carcinoma	N/A
+Early-Stage Non-Small-Cell Lung Carcinoma	D002289
+Early-Stage Small-Cell Lung Carcinoma	D055752
+Ebola Hemorrhagic Fever	D019142
+Eclampsia	D004461
+Ectopic Pregnancy	D011271
+Eczema Herpeticum	D007617
+Embryonal Testis Carcinoma	C104948
+Emphysema	D004646
+Encephalitis	D004660
+Encephalomyelitis	D004679
+Endocrine Gland Neoplasms	D004701
+Endometrial Neoplasms	D016889
+Endometrial Stromal Sarcoma	D018203
+Endometriosis	D004715
+Endomyocardial Fibrosis	D004719
+Endotoxemia	D019446
+Enteropathy	D007410
+Enterovirus Infection	D004769
+Eosinophilic Esophagitis	D057765
+Ependymoma	D004806
+Epilepsy	D004827
+Epithelioid Sarcoma	D012509
+Epstein-Barr Virus Infection	D020031
+Erythropoiesis	D004920
+Esophageal Neoplasms	D004938
+Esophagitis	D004941
+Essential Hypertension	C562386
+Essential Thrombocythemia	D013920
+Ewing Sarcoma	D012512
+Eye Pterygium	N/A
+Familial Mediterranean Fever	D010505
+Fanconi Anemia	D005199
+Fatty Liver [unspecific]	D005234
+Fatty Liver,Alcoholic	D005235
+Fatty Liver,Non-Alcoholic	D065626
+Feingold Syndrome	C537734
+Fetal Alcohol Spectrum Disorder	D063647
+Fetal Alcohol Syndrome	N/A
+Fever	D005334
+Fibromatosis,Aggressive	D018222
+Fibromyalgia	D005356
+Fibrosarcoma	D005354
+Focal Epithelial Hyperplasia	D017573
+Focal Segmental Glomerulosclerosis	D005923
+Follicular Atresia	D005496
+Foot-and-Mouth Disease	D005536
+Fragile X Syndrome	D005600
+Friedreich Ataxia	D005621
+Frontotemporal Dementia	C563003
+Frontotemporal Lobar Degeneration	D057174
+Fuchs Endothelial Dystrophy	D005642
+Fungal Keratitis	D007634
+Gallstones	D042882
+Gastric Cardia Adenocarcinoma	N/A
+Gastric Neoplasms	D013274
+Gastroduodenal Ulcer	N/A
+Gastrointestinal Neoplasms	D005770
+Gastrointestinal Stromal Tumor	D046152
+Gastrojejunal Ulcer	N/A
+Gaucher Disease	D005776
+Generalized Epilepsy with Febrile Seizures Plus	C565808
+Germ Cell And Embryonal Neoplasms	D009373
+Germ Cell Tumor	D009373
+Gerstmann-Straussler-Scheinker Syndrome	D016098
+Gestational Trophoblastic Disease	D031901
+Giant Cell Tumor of Bone	D018212
+Glaucoma	D005901
+Glioblastoma	D005909
+Glioblastoma Mesenchymal Subtype	N/A
+Glioma	D005910
+Gliosis	D005911
+Glomerulonephritis	D005921
+Glomerulosclerosis	D005923
+Gout	D006073
+Graft-Versus-Host Disease	D006086
+Granular Corneal Dystrophy	D003317
+Granulosa Cell Tumor	D006106
+Graves Disease	D006111
+Graves Ophthalmopathy	D049970
+Growth Disorders	D006130
+Guillain-Barre Syndrome	D020275
+Habitual Abortion	D000026
+Hailey-Hailey Disease	D016506
+Hand,Foot And Mouth Disease	D006232
+Hantavirus Infection	D018778
+Head And Neck Adenoid Cystic Carcinoma	N/A
+Head And Neck Neoplasms	D006258
+Hearing Disorders	D006311
+Hearing Loss	D034381
+Heart Diseases [unspecific]	D006333
+Heart Failure	D006331
+Heart Transplant Rejection	N/A
+Heart Valve Disease	D006349
+Helicobacter pylori Infection	D016480
+HELLP Syndrome	D017359
+Hemangioma	D006391
+Hemangiosarcoma	D006394
+Hematologic Neoplasms	D019337
+Hemoglobin Diseases	D006450
+Hemoglobinopathy	D006453
+Hemophagocytic Lymphohistiocytosis	D051359
+Hemophilia A	D006467
+Hemophilus Influenzae Infection	D006192
+Hepatic Ischemia-Reperfusion Injury	N/A
+Hepatitis [unspecific]	D006521
+Hepatitis B Virus Infection	D006509
+Hepatitis C Virus Infection	D006526
+Hepatitis E Virus Infection	D016751
+Hepatoblastoma	D018197
+Hereditary Breast Carcinoma	D001943
+Hereditary Hemorrhagic Telangiectasia	D013683
+Hirschsprung Disease	D006627
+HIV-Associated Lipodystrophy	D039682
+Holt-Oram Syndrome	C535326
+Human Cytomegalovirus Infection	D003586
+Human Immunodeficiency Virus Infection	D015658
+Human Papilloma Virus Infection	D027383
+Huntington Disease	D006816
+Hyperactivity Disorder	D001289
+Hypercholesterolaemia	D006937
+Hyperglycemia	D006943
+Hyperhomocysteinemia	D020138
+Hyperlipidemia	D006949
+Hyperlipoproteinemia Type III	D006952
+Hypertension	D006973
+Hypertrophic Scar	D017439
+Hypertrophy	D006984
+Hyperuricemia	D033461
+Hypogonadism	D007006
+Hypogonadotropic Hypogonadism	N/A
+Hypohidrotic Ectodermal Dysplasia	D053358
+Hypoxia	D000860
+Hypoxic-Ischemic Encephalopathy	D020925
+Idiopathic Asthenospermia	N/A
+Idiopathic Pulmonary Fibrosis	D054990
+Idiopathic Pulmonary Hypertension	D065627
+Idiopathic Short Stature	C565805
+IgA Nephropathy	D005922
+Ileus	D045823
+Immune System Disease [unspecific]	D007154
+Immune Thrombocytopenic Purpura	D016553
+In Vitro Fertilization Failure	N/A
+Infection [unspecific]	D007239
+Infectious Bursal Disease Virus	D007243
+Infertility	D007246
+Inflammation	D007249
+Inflammatory Bowel Diseases	D015212
+Influenza	D007251
+Inherited Hemoglobin Disease	N/A
+Inner Ear Inflammation	N/A
+Intellectual Disability	D008607
+Intermittent Claudication	D007383
+Interstitial Cystitis	D018856
+Interstitial Lung Disease	D017563
+Intervertebral Disc Degeneration	D055959
+Intestinal Barrier Dysfunction	N/A
+Intestinal Schistosomiasis	D012554
+Intracranial Aneurysm	D002532
+Intraductal Papillary Mucinous Neoplasms	N/A
+Intrahepatic Cholangiocarcinoma	D018281
+Invasive Bladder Transitional Cell Carcinoma	N/A
+Invasive Candida Infection	D002177
+Iron Metabolism Disease	D019189
+Irritable Bowel Syndrome	D043183
+Ischemia	D007511
+Ischemia-Reperfusion Injury	D015427
+Ischemic Diseases [unspecific]	D007511
+Ischemic Heart Disease	D017202
+Japanese Encephalitis Virus Infection	D018349
+Juvenile Rheumatoid Arthritis	D001171
+Kallmann Syndrome	D017436
+Kaposi Sarcoma	D012514
+Kawasaki Syndrome	D009080
+Keloid	D007627
+Keratitis	D007634
+Kideny Transplant Rejection	D006084
+Kidney Diseases [unspecific]	D007674
+Kidney Injury	D058186
+Kidney Neoplasms	D007680
+Kidney Osteogenic Sarcoma	N/A
+Knee Osteoarthritis	D020370
+Lacrimal Adenoid Cystic Carcinoma	N/A
+Laryngeal Neoplasms	D007822
+Learned Helplessness	D006380
+Legg-Calve-Perthes Disease	D007873
+Leiomyoma	D007889
+Leiomyosarcoma	D007890
+Leishmaniasis	D007896
+Lepromatous Leprosy	D015440
+Leprosy	D007918
+Lesch-Nyhan Syndrome	D007926
+Leukemia	D007938
+Leukemia,Acute	N/A
+Leukemia,B-Cell	D015448
+Leukemia,Biphenotypic,Acute	D015456
+Leukemia,Lymphoblastic	D007945
+Leukemia,Lymphoblastic,Acute	D054198
+Leukemia,Lymphoblastic,Acute,B-Cell	N/A
+Leukemia,Lymphoblastic,Acute,Childhood	D054198
+Leukemia,Lymphoblastic,Acute,T-Cell	N/A
+Leukemia,Lymphocytic,Chronic,B-Cell	D015451
+Leukemia,Myelogenous,Chronic,BCR-ABL Positive	D015464
+Leukemia,Myeloid	D007951
+Leukemia,Myeloid,Acute	D015470
+Leukemia,Myeloid,Acute,Pediatric	N/A
+Leukemia,Myeloid,Chronic	D015464
+Leukemia,Myeloid,Chronic-Phase	D015466
+Leukemia,Promyelocytic,Acute	D015473
+Leukemia,T-Cell	D015458
+Leukemia-Lymphoma,Adult T-Cell	D015459
+Leukemia-Lymphoma,Precursor B-Cell Lymphoblastic	D015452
+Leukemia-Lymphoma,Precursor T-Cell Lymphoblastic	D054218
+Lichen Planus	D008010
+Li-Fraumeni Syndrome	D016864
+Light-Induced Retinal Injury	N/A
+Lipid Metabolism Disorder	D008052
+Liposarcoma	D008080
+Listeriosis	D008088
+Liver Cirrhosis	D008103
+Liver Diseases [unspecific]	D008107
+Liver Diseases,Alcoholic	D008108
+Liver Failure	D017093
+Liver Fibrosis	D008103
+Liver Injury	D056486
+Liver Neoplasms	D008113
+Liver Transplant Rejection	N/A
+Lofgren Syndrome	N/A
+Long QT Syndrome	D008133
+Lung Disease [unspecific]	D008171
+Lung Fibrosis	D011658
+Lung Injury [unspecific]	D055370
+Lung Neoplasms	D008175
+Lupus Nephritis	D008181
+Lupus Vulgaris	D008177
+Lyme Disease	D008193
+Lymphedema	D008209
+Lymphocytic Choriomeningitis	D008216
+Lymphoma	D008223
+Lymphoma,B-Cell	D016393
+Lymphoma,Burkitt	D002051
+Lymphoma,Extranodal NK-T-Cell	D054391
+Lymphoma,Follicular	D008224
+Lymphoma,Hodgkin	D006689
+Lymphoma,Large B-Cell	D016403
+Lymphoma,Large B-Cell,Diffuse	D016403
+Lymphoma,Large-Cell,Anaplastic	D017728
+Lymphoma,Mantle-Cell	D020522
+Lymphoma,Non-Hodgkin	D008228
+Lymphoma,Primary Effusion	D054685
+Lymphoma,T-Cell	D016399
+Lymphoma,T-Cell,Cutaneous	D016410
+Lymphoproliferative Disorders	D008232
+Lynch Syndrome	D003123
+Machado-Joseph Disease	D017827
+Macroglobulinemia	D008258
+Macular Degeneration	D008268
+Macular Hole	D012167
+Major Depressive Disorder	D003865
+Male Infertility	D007248
+Malignant Neoplasms [unspecific]	D009369
+Malignant Peripheral Nerve Sheath Tumor	D009442
+MALT Lymphoma	N/A
+Mandibular Prognathism	N/A
+Marek Disease	D008380
+Mast Cell Neoplasm	N/A
+Mastitis	D008413
+Maternal Obesity During Childbirth	N/A
+Medulloblastoma	D008527
+Medulloepithelioma	D018242
+Melanoma	D008545
+MELAS Syndrome	D017241
+Melasma	D008548
+Meningioma	D008579
+Meningitis	D008581
+Meningitis,Pneumococcal	D008586
+Mesial Temporal Lobe Epilepsy	D004833
+Mesothelioma	C562839
+Metabolic Disorder	N/A
+Metabolic Syndrome	D024821
+Methylmalonic Acidemia	C537358
+Microvascular Disease	N/A
+Mild Cognitive Impairment	D060825
+Mitochondrial Encephalomyopathy	D017237
+Mitochondrial Metabolism Disease	D028361
+Mitral Valve Disease	N/A
+Monocytic Leukemia	N/A
+Mountain Sickness	D000532
+Moyamoya Disease	D009072
+Mucosulfatidosis	D052517
+Multiple Endocrine Neoplasia Type 1	D018761
+Multiple Myeloma	D009101
+Multiple Sclerosis	D009103
+Multiple System Atrophy	D019578
+Muscle Atrophy	D009133
+Muscle Diseases [unspecific]	D009135
+Muscular Dystrophy	D009136
+Muscular Dystrophy,Duchenne	D020388
+Muscular Dystrophy,Facioscapulohumeral	D020391
+Musculoskeletal Abnormalities [unspecific]	D009139
+Myasthenia Gravis	D009157
+Mycobacterium Avium Complex Disease	D015270
+Mycobacterium tuberculosis Infection	D014376
+Mycosis Fungoides	D009182
+Myelodysplastic Syndromes	D009190
+Myelofibrosis	D055728
+Myeloma	D009101
+Myeloproliferative Neoplasms	N/A
+Myocardial Infarction	D009203
+Myocardial Ischemic-Reperfusion Injury	D015428
+Myopia	D009216
+Myositis	D009220
+Myositis Ossificans	D009221
+Myotonic Dystrophy Type 1	D009223
+Myotonic Muscular Dystrophy	D009223
+Myxoid Liposarcoma	D018208
+Narcolepsy	D009290
+Nasal Cavity Inverting Papilloma	N/A
+Nasopharyngeal Neoplasms	D009303
+Necrotizing Enterocolitis	D020345
+Neoplasms [unspecific]	D009369
+Neovascularization,Pathologic	D009389
+Nephrolithiasis	D053040
+Nephrosclerosis	D009400
+Nephrotic Syndrome	D009404
+Nervous System Diseases [unspecific]	D009422
+Neuralgia,Postherpetic	D051474
+Neurilemmoma	D009442
+Neuroblastoma	D009447
+Neurodegenerative Diseases [unspecific]	D019636
+Neuroendocrine Tumors	D018358
+Neuroepithelial Tumors	D018302
+Neurofibromatosis type 2	C537392
+Neuroinflammation	N/A
+Neuroma	D009463
+Neuronal Apoptosis-Related Diseases	N/A
+Neuropathic Pain	D009437
+Neuropsychiatric Disorders [unspecific]	C537163
+Neutropenia	D009503
+Nevus	D009506
+Niemann-Pick Disease,Type C	D052556
+Non-Neoplastic Diseases	N/A
+Non-Sensory Diseases	N/A
+Non-Syndromic Orofacial Clefts	N/A
+Non-Traumatic Osteonecrosis	D010020
+Non-Traumatic Subarachnoid Hemorrhage	N/A
+NUT Midline Carcinoma	N/A
+Obesity	D009765
+Obstructive Sleep Apnea	D020181
+Odontogenic Tumors	D009808
+Oligodendroglioma	D009837
+Oral Leukoplakia	D007972
+Oral Lichen Planus	D017676
+Oral Neoplasms	D009062
+Oral Submucous Fibrosis	D009914
+Ossification of Posterior Longitudinal Ligament	D017887
+Osteoarthritis	D010003
+Osteogenesis Imperfecta	D010013
+Osteomyelitis	D010019
+Osteonecrosis	D010020
+Osteopetrosis	D010022
+Osteoporosis	D010024
+Osteoporosis,Postmenopausal	D015663
+Osteosarcoma	D012516
+Otitis Media	D010033
+Ovarian Disease	D010049
+Ovarian Germ Cell Cancer	N/A
+Ovarian Neoplasms	D010051
+Ovarian Serous Cystadenocarcinoma	D018284
+Ovary Mixed Epithelial Carcinoma	N/A
+Pain	D010146
+Pallister-Killian Syndrome	C538105
+Pancreatic Adenocarcinoma	N/A
+Pancreatic Diseases	D010182
+Pancreatic Endocrine Carcinoma	D018273
+Pancreatic Intraductal Papillary Mucinous Neoplasms	N/A
+Pancreatic Neoplasms	D010190
+Pancreatic Serous Cystic Neoplasm	N/A
+Panic Disorder	D016584
+Parathyroid Carcinoma	D010282
+Parkinson Disease	D010300
+Patau Syndrome	D000073839
+Pediatric Astrocytoma	N/A
+Pediatric Dysembryoplastic Neuroepithelial Tumors	N/A
+Pediatric Ependymoma	N/A
+Pediatric Glioma	N/A
+Pediatric Osteosarcoma	N/A
+Pelvic Inflammatory Disease	D000292
+Pelvic Organ Prolapse	D056887
+Pemphigus	D010392
+Penis Carcinoma	N/A
+Periodontal Diseases	D010510
+Periodontitis	D010518
+Peripheral Nerve Injury	D059348
+Peripheral Nervous System Diseases	D010523
+Peripheral Vascular Disease	D016491
+Peritoneal Dialysis Failure	N/A
+Peritoneal Fibrosis	D056627
+Peritoneal Neoplasms	D010534
+Perlman Syndrome	C536399
+Persistent Fetal Circulation Syndrome	D010547
+Pheochromocytoma	D010673
+Pineal Gland Cancer	D010871
+Pituitary Adenoma	D010911
+Pituitary Neoplasms	D010911
+Placenta Cancer	N/A
+Plasmodium vivax Infection	D016780
+Pleural Mesothelioma	D054363
+Pneumonia	D011014
+Polyangiitis	N/A
+Polycystic Kidney Disease	D007690
+Polycystic Ovarian Syndrome	D011085
+Polycythemia Vera	D011087
+Porcine Reproductive and Respiratory Syndrome Virus Infection	N/A
+Porphyromonas Gingivalis	D016966
+Posterior Capsule Opacification	D058442
+Post-Traumatic Stress Disorder	D013313
+Prediabetes	D011236
+Preeclampsia	D011225
+Pregnancy Complications [unspecific]	D011248
+Premature Ovarian Failure	D016649
+Preterm Labor	D007752
+Primary Aldosteronism	D006929
+Primary Biliary Cirrhosis	D008105
+Primary Immunodeficiency Disease	D007153
+Prion Diseases	D017096
+Progressive Glomerular Diseases	N/A
+Progressive Supranuclear Palsy	D013494
+Prolactinoma	D015175
+Proliferative Diabetic Retinopathy	N/A
+Proliferative Glomerulonephritis	N/A
+Proliferative Vitreoretinal Disease	N/A
+Prostate Disease	D011469
+Prostate Neoplasms	D011471
+Psoriasis	D011565
+Psoriatic Arthritis	D015535
+Psychiatric Disorders	D001523
+Psychotic Disorders	D011618
+PTEN Hamartoma Tumor Tyndrome	C566636
+Pterygium	D011625
+Pulmonary Embolism	D011655
+Pulmonary Hypertension	D006976
+Pulmonary Sarcoidosis	D017565
+Radiation Fibrosis of Lung	D017564
+Rapidly Progressive Glomerulonephritis	C538458
+Rectal Neoplasms	D012004
+Rectum Adenocarcinoma	N/A
+Recurrent Spontaneous Abortion	D000022
+Recurrent Wheezing	N/A
+Reflux Esophagitis	D004942
+Renal Fibrosis	N/A
+Reproductive System Disease	N/A
+Respiratory Syncytial Virus Pneumonia	D018357
+Respiratory System Disease	N/A
+Retinal Degeneration	D012162
+Retinal Neovascularization	D015861
+Retinal Vascular Disease	N/A
+Retinitis Pigmentosa	D012174
+Retinoblastoma	D012175
+Rhabdoid Cancer	D018335
+Rhabdomyosarcoma	D012208
+Rheumatic Heart Diseases	D012214
+Rheumatic Myocarditis	N/A
+Rheumatoid Arthritis	D001172
+Rhinosinusitis	N/A
+Roberts Syndrome	C535687
+Salivary Gland Disease	N/A
+Salivary Gland Neoplasms	D012468
+Salmonellosis	D012480
+Sarcoma [unspecific]	D012509
+Sarcomatoid Mesothelioma	N/A
+Schizophrenia	D012559
+Sciatic Nerve Injury	N/A
+Scleroderma,Localized	D012594
+Scleroderma,Systemic	D012595
+Sebaceous Carcinoma	N/A
+Seizures	D012640
+Selective IgE Deficiency Disease	N/A
+Seminoma	D018239
+Sensorineural Hearing Loss	D006313
+Sepsis	D018805
+Sertoli Cell-Only Syndrome	D054331
+Severe Acute Respiratory Syndrome Virus Infection	D045169
+Sezary Disease	D012751
+Shock,Hemorrhagic	D012771
+Shock,Septic	D012772
+Short Bowel Syndrome	D012778
+Sickle Cell Anemia	D000755
+Sickle Cell Disease	D000755
+Silicosis	D012829
+Sjogren Syndrome	D012859
+Skin Disease [unspecific]	D012871
+Skin Hemangioma	N/A
+Skin Injury	N/A
+Skin Neoplasms	D012878
+Small Cell Carcinoma,Esophageal	N/A
+Soft Tissue Sarcoma	D012509
+Somatotropinoma	D049912
+Spinal Chordoma	D002817
+Spinal Cord Injuries	D013119
+Spinal Cord Ischemia-Reperfusion Injury	D020760
+Spinal Muscular Atrophy	D009134
+Spinal Stenosis	D013130
+Spondylarthritis	D025241
+Squamous Cell Carcinoma	D002294
+Squamous Cell Carcinoma,Cerevial	N/A
+Squamous Cell Carcinoma,Esophageal	C562729
+Squamous Cell Carcinoma,Head and Neck	C535575
+Squamous Cell Carcinoma,Laryngeal or Hypopharyngeal	N/A
+Squamous Cell Carcinoma,Lung	N/A
+Squamous Cell Carcinoma,Maxillary Sinus	N/A
+Squamous Cell Carcinoma,Oral	N/A
+Squamous Cell Carcinoma,Sinonasal	N/A
+Squamous Cell Carcinoma,Skin or Unspecific	N/A
+Squamous Cell Carcinoma,Tongue	N/A
+Status Epilepticus	D013226
+Stroke	D020521
+Stroke,Hemorrhagic	N/A
+Stroke,Ischemic	N/A
+Synovial Sarcoma	D013584
+Systemic Lupus Erythematosus	D008180
+Systemic Lupus Erythematosus,With Pericarditis	N/A
+Systemic Mastocytosis	D034721
+Tauopathy	D024801
+Teratocarcinoma	D018243
+Testicular Germ Cell Tumor	C563236
+Testicular Neoplasms	D013736
+Tetralogy Of Fallot	D013771
+Thrombocytopenia	D013921
+Thrombocytosis	D013922
+Thrombosis	D013927
+Thymoma	D013945
+Thyroid Adenomas	D013964
+Thyroid Lymphoma	N/A
+Thyroid Neoplasms	D013964
+Thyroid-Associated Ophthalmopathy	D049970
+Tibial Meniscus Injuries	D000070600
+Tongue Neoplasms	D014062
+Tooth Agenesis	D000848
+Tourette Syndrome	D005879
+Toxic Encephalopathy	D020258
+Toxic Epidermal Necrolysis	D013206
+Toxoplasma gondii Infection	D014123
+Transitional Cell Carcinoma	D002295
+Traumatic Brain Injury	D000070642
+Tuberculosis	D014376
+Tuberculosis,Pulmonary	D014397
+Tumor Metastasis,to Bone	N/A
+Tumor Metastasis,to Brain	N/A
+Tumor Metastasis,to Liver	N/A
+Type 2 Diabetes Complications	D003924
+Unstable Angina	D000789
+Uremic Neuropathy	N/A
+Urinary Bladder Cancer	D001749
+Urinary System Cancer	N/A
+Uterine Cancer	D014594
+Uterine Carcinosarcoma	N/A
+Uterine Corpus Choriocarcinoma	N/A
+Uterine Corpus Endometrial Carcinoma	N/A
+Uterine Corpus Myxoid Leiomyosarcoma	N/A
+Uterine Corpus Serous Adenocarcinoma	N/A
+Uterine Leiomyoma	D007889
+Uterine Leiomyosarcoma	N/A
+Uveal Melanoma	C536494
+Uveitis	D014605
+Varicella	D002644
+Varicocele	D014646
+Vascular Calcification	D061205
+Vascular Disease [unspecific]	D000783
+Vascular Hypertrophy	N/A
+Vascular Injuries	D057772
+Vasculitis	D014657
+Vasomotor Rhinitis	D012223
+Ventricular Tachycardia	D017180
+Viral Infectious Disease	D001102
+Viral Myocarditis	D009205
+Vitiligo	D014820
+Vogt-Koyanagi-Harada Disease	D014607
+Vulvar Squamous Cell Carcinoma	N/A
+Vulvar Squamous Tumor	N/A
+Waldenstrom Macroglobulinemia	D008258
+White Spot Syndrome Virus Infection	D046848
+Wilms Tumor	D009396
+Wound Healing	D014945
+Wound Inflammation	N/A
+Wounds and Injuries [unspecific]	D014947
+Intracerebral Hemorrhage	D002543
