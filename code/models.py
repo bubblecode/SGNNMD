@@ -230,7 +230,7 @@ def subgraph_extraction_labeling(ind, Mtx:np.matrix, h=1, max_nodes_per_hop=None
     if subgraphAdj.shape[0] > val_max_shape[0]:
         val_max_shape = subgraphAdj.shape
     g = nx.from_scipy_sparse_matrix(subgraphAdj)
-    return g, node_labels, node_features ,pos_edge, neg_edge, max(node_labels), ind
+    return g, node_labels, node_features ,pos_edge, neg_edge, max(node_labels), ind[0], ind[1]
 def links2subgraphs(Mtx, Mtxori, train_pos,train_neg, test_pos,test_neg, h=1, max_nodes_per_hop=None, featM=None,featD=None) -> list:
     # extract enclosing subgraphs
     ###############################################################
@@ -249,7 +249,7 @@ def links2subgraphs(Mtx, Mtxori, train_pos,train_neg, test_pos,test_neg, h=1, ma
         # the parallel extraction code
         start = time.time()
         results = [subgraph_extraction_labeling(*((i, j), M, h, max_nodes_per_hop, featM, featD)) for i, j in zip(links[0], links[1])]
-        g_list = [GNNGraph(g, g_label, n_label, n_feat, pos_edge, neg_edge) for g,n_label,n_feat,pos_edge,neg_edge,_,_ in results]
+        g_list = [GNNGraph(g, g_label, n_label, n_feat, pos_edge, neg_edge, x,y) for g,n_label,n_feat,pos_edge,neg_edge,_,x,y in results]
         if len(results) != 0:
             max_n = max([i[5] for i in results])
         end = time.time()
@@ -273,11 +273,34 @@ def links2subgraphs(Mtx, Mtxori, train_pos,train_neg, test_pos,test_neg, h=1, ma
             val_max_shape[0], val_max_shape[1]
         )
     )
-    with open('output.txt', 'a+') as f:
+    with open('zero_ratio.txt', 'a+') as f:
         f.write('{},{},{},{},{},{},{}\n'.format(m1d1,m1d2,m2d1,m2d2,pos_num,neg_num,allG))
     train_max_shape = (0,0)
     val_max_shape = (0,0)
     return train_graphs, test_graphs, max_n
+#TODO:==========================================================================================
+def links2subgraphs_pred(Mtx, test_pos, test_neg,featM=None,featD=None):
+    global train_max_shape
+    global val_max_shape
+    def helper(M, links, g_label):
+        global max_n
+        g_list = []
+        # the parallel extraction code
+        start = time.time()
+        results = [subgraph_extraction_labeling(*((i, j), M, 1, None, featM, featD)) for i, j in zip(links[0], links[1])]
+        g_list = [GNNGraph(g, g_label, n_label, n_feat, pos_edge, neg_edge) for g,n_label,n_feat,pos_edge,neg_edge,_,_ in results]
+        if len(results) != 0:
+            max_n = max([i[5] for i in results])
+        end = time.time()
+        print(" \rSubgraph extracting ... ok (Time: {:.2f}s)".format(end-start), flush=True)
+        return g_list
+    ###########################################################
+    val_max_shape = (0,0)
+    test_graphs = helper(Mtx, test_pos, 1) + helper(Mtx, test_neg, -1)
+    print('max_n:{}'.format(max_n))
+    print('subgraph test shape:({},{})'.format(val_max_shape[0], val_max_shape[1]))
+    val_max_shape = (0,0)
+    return test_graphs, max_n
 #!############################################################################
 import random
 
@@ -396,7 +419,7 @@ class GCN(nn.Module):
         bio_feat = Variable(bio_feat)
         n2n_sp = Variable(n2n_sp.to_dense())
         node_degs = Variable(node_degs)
-        #! GCNembedding 核心部分
+        #! embedding 核心部分
         h = self.pooling(node_feat, bio_feat, n2n_sp, graph_sizes, node_degs)
 
         if self.predict:
@@ -409,29 +432,27 @@ class GCN(nn.Module):
         hid_topo = self.gcn_topo2(hid_topo, n2n_sp)[0]
         cannel = self.gcn_sort_channel(hid_topo, n2n_sp)[0]
         #############################
-        # cur_message_layer = hid_topo
-        # cur_message_layer = concat_feat
         cur_message_layer = torch.cat((hid_topo, concat_feat), 1)
         self.total_hidden_dim = cur_message_layer.shape[1]
-        ''' pooling layer ''' #! DGCNN核心部分
-        batch_sortpooling_graphs = torch.zeros(len(graph_sizes), self.k, self.total_hidden_dim) ## 50个(27,xxx)的矩阵
+        ''' pooling layer ''' #!
+        batch_sortpooling_graphs = torch.zeros(len(graph_sizes), self.k, self.total_hidden_dim)
         batch_sortpooling_graphs = Variable(batch_sortpooling_graphs)  ## tensor(50,27,xxx)
         accum_count = 0
         for i in range(len(graph_sizes)):  ## 重复50次,对每一个batch_size
             sort_value = cannel[accum_count: accum_count + graph_sizes[i]]
-            k = self.k if self.k <= graph_sizes[i] else graph_sizes[i]  ## k赋值为self.k和graph_size较小的那个
+            k = self.k if self.k <= graph_sizes[i] else graph_sizes[i] 
             _, topk_indices = sort_value.reshape(1, -1).topk(k)
             # topk_indices = torch.LongTensor(list(range(k)))
             topk_indices = topk_indices[0]
-            topk_indices += accum_count  ## 所有的下标值+accum_count
-            sortpooling_graph = cur_message_layer.index_select(0, topk_indices)  ## 选出这些下标所在的卷积结果
+            topk_indices += accum_count
+            sortpooling_graph = cur_message_layer.index_select(0, topk_indices) 
             
-            if k < self.k:  ## 在下面填充补零
+            if k < self.k:
                 to_pad = torch.zeros(self.k-k, self.total_hidden_dim) ## (25-k,xxx)
                 to_pad = Variable(to_pad)
-                sortpooling_graph = torch.cat((sortpooling_graph, to_pad), 0) ##相当于np.vstack (27,xxx)
+                sortpooling_graph = torch.cat((sortpooling_graph, to_pad), 0)
             batch_sortpooling_graphs[i] = sortpooling_graph
-            accum_count += graph_sizes[i] ## 后移graph_sizes[i]个结点个数
+            accum_count += graph_sizes[i]
 
         to_conv1d = batch_sortpooling_graphs.view((-1, 1, self.k * self.total_hidden_dim))
         return to_conv1d.squeeze(1)
@@ -485,18 +506,19 @@ class Classifier(nn.Module):
         # return out
         return torch.sigmoid(out)
 class Mymodel(nn.Module):
-    def __init__(self, topo_feat=5, bio_feat=128):
+    def __init__(self, topo_feat=5, k=25, bio_feat=128):
         super(Mymodel, self).__init__()
-        k = 25
-        self.gcn = GCN(num_node_feats=max_n+1, k=k)
+        #k = 25
+        print('using k={} ...'.format(k))
+        self.gcn = GCN(num_node_feats=topo_feat+1, k=k)
         self.clsf   = Classifier(input_dim=k*32*5, hidden_dim=32, output_dim=2)
-        self.feat_dim = topo_feat ## 结点最大标签+1
+        self.feat_dim = topo_feat
         self.predict = False
         self.locations = None
         self.last_embedding = None
     def forward(self, batch_input):
         embedding = self.gcn(batch_input)   #(50,) (xxxx,4)
-        output = self.clsf(embedding) ## 输入:(50,288)，输出:(50,3)
+        output = self.clsf(embedding)
         if self.predict:
             self.locations = self.gcn.locations
             self.last_embedding = embedding
