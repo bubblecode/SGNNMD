@@ -1,5 +1,5 @@
 from models import Mymodel, links2subgraphs_pred, links2subgraphs
-from utils import getMetrics, getMacroMetrics
+from utils import getTopMetrics
 from tqdm import tqdm
 from torch.autograd import Variable
 from torch import optim
@@ -278,7 +278,7 @@ if __name__ == '__main__':
     all_negative_edges = np.array((row[neg_idx], col[neg_idx])).T
 
     # dataset split
-    load_split_data = True
+    load_split_data = False
     if load_split_data:
         data = np.load("split_data_{}.npz".format(args.mask), allow_pickle=True)
         kfolds = data['kfolds']
