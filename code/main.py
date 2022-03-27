@@ -97,7 +97,7 @@ def train(model, g_list, sample_idxes, optimizer=None, criterion=None, bsize=50,
     if optimizer is None:
         assert n_samples == len(sample_idxes)
 
-    return getMetrics(np.array(all_scores), all_targets)
+    return getTopMetrics(np.array(all_scores), all_targets)
 
 
 def predict(md, featM, featD, test_pos, test_neg):
