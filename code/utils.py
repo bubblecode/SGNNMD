@@ -32,3 +32,19 @@ def getMacroMetrics(predict_score, real_score):
     recall = metrics.recall_score(l, p)
     f1 = metrics.f1_score(l, p)
     return [aupr, auc, f1, precision, recall]
+
+
+def getTopMetrics(preds, targets):
+    preds = np.array(preds)
+    targets = np.array(targets)
+    all_targets = np.array(targets)
+    fpr, tpr, _ = metrics.roc_curve(targets, preds)
+    auc = metrics.auc(fpr, tpr)
+    pr, re, _ = metrics.precision_recall_curve(targets, preds)
+    aupr = metrics.auc(re, pr)
+    # preds[np.where(preds >= 0.5)] = 1
+    # preds[np.where(preds < 0.5)] = 0
+    precision = metrics.precision_score(targets, preds)
+    recall = metrics.recall_score(targets, preds)
+    f1 = metrics.f1_score(targets, preds)
+    return [aupr, auc, precision, recall, f1]
